@@ -89,7 +89,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Ohyoufrancybruh`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,

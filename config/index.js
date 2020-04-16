@@ -1,8 +1,8 @@
 const site = {
   pathPrefix: '/gatsby-simple-blog',
-  title: 'Gatsby Starter Blog',
-  author: 'Kyle Mathews',
-  description: 'A starter blog demonstrating what Gatsby can do.',
+  title: 'Ohyoufrancybruh',
+  author: 'Francis Calizo',
+  description: 'Hey There.',
   siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
   twitter: 'kylemathews',
   github: 'thundermiracle',
@@ -16,7 +16,6 @@ const site = {
 
 const supportedLanguages = {
   en: 'English',
-  'zh-hans': '简体中文',
 };
 
 module.exports = {
