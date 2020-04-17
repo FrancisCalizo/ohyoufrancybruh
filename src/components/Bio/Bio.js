@@ -12,8 +12,6 @@ import Image from 'gatsby-image';
 import { rhythm } from 'utils/typography';
 import './Bio.css';
 
-import SocialBar from '../SocialBar';
-
 function Bio() {
   return (
     <StaticQuery
@@ -41,7 +39,6 @@ function Bio() {
               />
               <div className="description">
                 <p>{description}</p>
-                <SocialBar />
               </div>
             </div>
           </div>
