@@ -14,5 +14,15 @@
 }
 
 .bio .description p {
-  margin-bottom: 1rem;
+  margin: 0.5rem 0;
+}
+
+.bio .description a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: inherit;
+}
+
+.bio .description a:hover {
+  text-decoration: underline;
 }

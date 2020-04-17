@@ -18,7 +18,7 @@ function Bio() {
       // eslint-disable-next-line no-use-before-define
       query={bioQuery}
       render={data => {
-        const { author, description } = data.site.siteMetadata;
+        const { author } = data.site.siteMetadata;
         return (
           <div
             style={{
@@ -38,7 +38,15 @@ function Bio() {
                 }}
               />
               <div className="description">
-                <p>{description}</p>
+                <p>
+                  Written by{' '}
+                  <a href="https://franciscalizo.com" target="_blank" rel="noopener noreferrer">
+                    {author}
+                  </a>
+                  . A driven software developer situated in Fort Lauderdale, Florida. Passionate
+                  about fitness, travel, and hiking. Other interests include pizza.{' '}
+                  <i>Hawaiian pizza</i>.
+                </p>
               </div>
             </div>
           </div>
@@ -52,7 +60,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 70, height: 70) {
+        fixed(width: 90, height: 80, quality: 100) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -60,7 +68,6 @@ const bioQuery = graphql`
     site {
       siteMetadata {
         author
-        description
       }
     }
   }

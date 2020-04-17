@@ -39,7 +39,7 @@ function Header({ location, title, base }) {
   return (
     <h3
       style={{
-        fontFamily: 'Roboto, sans-serif',
+        fontFamily: 'Merriweather, Georgia, serif',
         marginTop: 0,
         marginBottom: 0,
         height: 42,
@@ -50,7 +50,7 @@ function Header({ location, title, base }) {
         style={{
           boxShadow: 'none',
           textDecoration: 'none',
-          color: 'rgb(255, 167, 196)',
+          color: 'black',
         }}
         to={base}
       >

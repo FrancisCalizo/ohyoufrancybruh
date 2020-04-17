@@ -33,7 +33,7 @@ function PostAbbrev({ slug, title, date, timeToRead, excerpt, tags, base }) {
       <header>
         <h3
           style={{
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'Merriweather, Georgia, serif',
             fontSize: rhythm(1),
             marginBottom: rhythm(1 / 4),
           }}

@@ -21,7 +21,7 @@ function RelativePost({ postNode }) {
         <header>
           <h3
             style={{
-              fontFamily: 'Roboto, sans-serif',
+              fontFamily: 'Merriweather, Georgia, serif',
               fontSize: rhythm(1),
               margin: `${rhythm(1 / 2)} ${rhythm(1 / 4)} 0`,
             }}
