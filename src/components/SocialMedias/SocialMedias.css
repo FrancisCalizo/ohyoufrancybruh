@@ -1,0 +1,9 @@
+.social-bar {
+  display: flex;
+}
+
+.social-bar li {
+  list-style-type: none;
+  padding-right: 0.8rem;
+  text-decoration: underline;
+}

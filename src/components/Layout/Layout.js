@@ -9,6 +9,7 @@ import Header from './Header';
 import Footer from './Footer';
 import ReadModeToggle from './ReadModeToggle';
 import Breadcrumbs from '../Breadcrumbs';
+import SocialMedias from '../SocialMedias';
 
 function Layout({ children, location, title, breadcrumbs }) {
   const { lang, homeLink, refresh } = useLang();
@@ -41,12 +42,13 @@ function Layout({ children, location, title, breadcrumbs }) {
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
-            marginBottom: '2.625rem',
+            // marginBottom: '2.625rem',
           }}
         >
           <Header base={homeLink} location={location} title={title} />
           <ReadModeToggle />
         </header>
+        <SocialMedias />
         <Breadcrumbs
           base={homeLink}
           langKey={lang}

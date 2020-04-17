@@ -12,10 +12,9 @@ function Footer() {
       }}
     >
       <p>
-        Made by{' '}
-        <a href="https://franciscalizo.com" target="_blank" rel="noopener noreferrer">
-          Francis Calizo
-        </a>
+        ©2019 {/* <a href="https://franciscalizo.com" target="_blank" rel="noopener noreferrer"> */}
+        Francis Calizo
+        {/* </a> */}
       </p>
     </footer>
   );
