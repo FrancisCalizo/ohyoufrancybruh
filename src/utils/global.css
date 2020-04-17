@@ -1,6 +1,6 @@
 body {
   --pink: rgb(255, 167, 196);
-  --gold: #d3a000;
+  --blue: #5183f5;
   background-color: var(--bg);
   --breadcrumbsDividerSize: 20px;
   --systemFont: Merriweather, Georgia, serif;
@@ -42,7 +42,7 @@ body.dark {
 
 a {
   box-shadow: none;
-  color: var(--gold);
+  color: var(--blue);
 }
 
 /*

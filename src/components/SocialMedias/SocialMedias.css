@@ -7,3 +7,7 @@
   padding-right: 0.8rem;
   text-decoration: underline;
 }
+
+.social-bar li a:hover {
+  color: #6e97f7;
+}

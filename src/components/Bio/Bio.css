@@ -1,5 +1,5 @@
 :root {
-  --gold: #d3a000;
+  --blue: #5183f5;
 }
 
 .bio {
@@ -31,5 +31,5 @@
 
 .bio .description a:hover {
   text-decoration: underline;
-  color: var(--gold);
+  color: var(--blue);
 }

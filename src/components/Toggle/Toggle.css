@@ -4,7 +4,7 @@
 **/
 
 body {
-  --gold: #d3a000;
+  --blue: #5183f5;
 }
 
 .react-toggle {
@@ -40,7 +40,7 @@ body {
   height: 24px;
   padding: 0;
   border-radius: 30px;
-  background-color: var(--gold);
+  background-color: var(--blue);
   transition: all 0.2s ease;
 }
 
@@ -100,9 +100,9 @@ body {
 }
 
 .react-toggle--focus .react-toggle-thumb {
-  box-shadow: 0px 0px 2px 3px var(--gold);
+  box-shadow: 0px 0px 2px 3px var(--blue);
 }
 
 .react-toggle:active .react-toggle-thumb {
-  box-shadow: 0px 0px 5px 5px var(--gold);
+  box-shadow: 0px 0px 5px 5px var(--blue);
 }
