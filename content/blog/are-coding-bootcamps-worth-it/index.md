@@ -1,8 +1,13 @@
 ---
 title: Are Coding Bootcamps Worth It? My Web Development Bootcamp Experience and In-Depth Review
 date: "2019-05-11"
+description: "In-depth review about my web development bootcamp experience at Ironhack Miami."
 tags: ["Coding","Bootcamp", "Education", "School", "Technology"]
 ---
+![Header Computer](./computer.jpg)
+
+
+
 ## Introduction
 
 Coding bootcamps have become extremely popular over the years, showcasing the idea that you can become a Web Developer, UI/UX Designer, or Data Analyst without having to go through a four-year college to get a degree in order to do so. Some bootcamps can be completed in as little as 3 months and have caused a disruption in the traditional education system.
@@ -201,6 +206,7 @@ This kind of environment made it very enjoyable just to be around and to learn c
 The co-working space and Ironhack also hosted a lot of free tech events (**with free beer too**) that you were able network and learn from. There were great areas to study and to relax in the building as well. And because of it’s location in Brickell, it was next to a lot of great restaurants, bars, and shopping areas.
 
 ![Rooftop View](./rooftop.jpg)
+> Roofttop view at Ironhack-Miami Campus
 
 ##### The Staff
 *You know the drill. This differs between what bootcamp you attend*. During my cohort, there was a bit of a problem with the head instructor that I won’t get too much into detail on. But long story short, the original instructor had moved to a different Ironhack location in Paris and was replaced by another instructor who was quite a bit inexperienced with JavaScript. It did make an impact on our learning, but overall wasn’t absolutely detrimental. He was honestly a super nice guy as well, but wasn’t the best teacher for the actual curriculum.
@@ -259,4 +265,4 @@ If you are persistent, you will definitely make the most out of a coding bootcam
 ## Final Project
 Ironhack filmed my final project presentation and uploaded it. So here it is. I apologize for the 165 “uhs” and “ums”, public speaking ain’t my cup of tea:
 
-[![final-project-screenshot](./video-screenshot.png)](https://www.youtube.com/watch?v=4CYIz6z1bHo&feature=emb_title "Video Title")
+[![Final Project Screenshot](./video-screenshot.png)](https://www.youtube.com/watch?v=4CYIz6z1bHo&feature=emb_title "Video Title")

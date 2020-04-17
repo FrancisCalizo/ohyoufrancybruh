@@ -50,7 +50,7 @@ function Header({ location, title, base }) {
         style={{
           boxShadow: 'none',
           textDecoration: 'none',
-          color: 'black',
+          color: 'inherit',
         }}
         to={base}
       >
