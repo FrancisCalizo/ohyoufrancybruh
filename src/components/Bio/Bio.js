@@ -33,9 +33,6 @@ function Bio() {
                 style={{
                   marginRight: rhythm(1 / 2),
                 }}
-                imgStyle={{
-                  borderRadius: '50%',
-                }}
               />
               <div className="description">
                 <p>
@@ -45,7 +42,10 @@ function Bio() {
                   </a>
                   . A driven software developer situated in Fort Lauderdale, Florida. Passionate
                   about fitness, travel, and hiking. Other interests include pizza.{' '}
-                  <i>Hawaiian pizza</i>.
+                  <i>
+                    <u>Hawaiian</u> pizza
+                  </i>
+                  .
                 </p>
               </div>
             </div>

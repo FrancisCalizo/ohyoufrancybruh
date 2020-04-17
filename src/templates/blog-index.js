@@ -21,7 +21,7 @@ function BlogIndex({ data, location }) {
       <aside>
         <Bio />
       </aside>
-      <h4>{formatMessage('tfIndCountPosts', data.allMarkdownRemark.totalCount)}</h4>
+      {/* <h4>{formatMessage('tfIndCountPosts', data.allMarkdownRemark.totalCount)}</h4> */}
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (

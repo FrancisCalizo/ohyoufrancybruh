@@ -1,3 +1,7 @@
+:root {
+  --gold: #d3a000;
+}
+
 .bio {
   display: flex;
   align-items: center;
@@ -7,6 +11,8 @@
   margin-bottom: 0;
   min-width: 70px;
   border-radius: 100%;
+  /* border: 2px solid black; */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.27);
 }
 
 .bio .description {
@@ -25,4 +31,5 @@
 
 .bio .description a:hover {
   text-decoration: underline;
+  color: var(--gold);
 }

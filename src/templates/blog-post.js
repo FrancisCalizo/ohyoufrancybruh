@@ -46,7 +46,7 @@ function BlogPostTemplate({ data, pageContext, location }) {
         {` • ${formatReadingTime(post.timeToRead)}`}
       </p>
 
-      {tags}
+      {/* {tags} */}
       <TranslationsLink
         translationsLink={translationsLink}
         langKey={lang}
@@ -56,7 +56,7 @@ function BlogPostTemplate({ data, pageContext, location }) {
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
       <RelativePosts postNodes={[previousInSameTag, nextInSameTag]} lang={lang} />
-
+      {/* {tags} */}
       <hr
         style={{
           marginBottom: rhythm(1),
@@ -89,7 +89,6 @@ function BlogPostTemplate({ data, pageContext, location }) {
           )}
         </li>
       </ul>
-
       <Disqus identifier={post.id} show={post.frontmatter.disqus} title={post.frontmatter.title} />
     </Layout>
   );

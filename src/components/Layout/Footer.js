@@ -12,13 +12,9 @@ function Footer() {
       }}
     >
       <p>
-        Made of{' '}
-        <a
-          href="https://github.com/thundermiracle/gatsby-simple-blog"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          gatsby-simple-blog
+        Made by{' '}
+        <a href="https://franciscalizo.com" target="_blank" rel="noopener noreferrer">
+          Francis Calizo
         </a>
       </p>
     </footer>
