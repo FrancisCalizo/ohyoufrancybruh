@@ -21,6 +21,10 @@
     justify-content: center;
     text-align: center;
   }
+
+  .bio .pic {
+    margin-bottom: 0.3rem;
+  }
 }
 
 .bio .description {
