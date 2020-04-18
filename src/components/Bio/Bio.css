@@ -5,14 +5,22 @@
 .bio {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .bio .pic {
   margin-bottom: 0;
   min-width: 70px;
   border-radius: 100%;
-  /* border: 2px solid black; */
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.27);
+}
+
+@media only screen and (max-width: 485px) {
+  .bio {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .bio .description {
