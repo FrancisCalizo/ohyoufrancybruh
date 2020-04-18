@@ -1,5 +1,6 @@
 .social-bar {
   display: flex;
+  margin-left: 0;
 }
 
 .social-bar li {
