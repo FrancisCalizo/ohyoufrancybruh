@@ -17,8 +17,9 @@ function Header({ location, title, base }) {
   if (location.pathname === rootPath) {
     return (
       <h1
+        className="main-title"
         style={{
-          ...scale(0.8),
+          // ...scale(0.8),
           marginBottom: 0,
           marginTop: 0,
         }}
