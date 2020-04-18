@@ -165,7 +165,7 @@ export default class Toggle extends PureComponent {
         onTouchEnd={this.handleTouchEnd}
         onTouchCancel={this.handleTouchCancel}
       >
-        <div className="react-toggle-track">
+        <div className="react-toggle-track ">
           <div className="react-toggle-track-check">{this.getIcon('checked')}</div>
           <div className="react-toggle-track-x">{this.getIcon('unchecked')}</div>
         </div>

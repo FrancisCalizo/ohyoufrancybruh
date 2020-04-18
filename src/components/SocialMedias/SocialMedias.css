@@ -8,6 +8,10 @@
   text-decoration: underline;
 }
 
+.social-bar li a {
+  color: inherit;
+}
+
 .social-bar li a:hover {
-  color: #6e97f7;
+  color: var(--blue);
 }

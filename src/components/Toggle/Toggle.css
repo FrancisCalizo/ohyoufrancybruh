@@ -40,8 +40,12 @@ body {
   height: 24px;
   padding: 0;
   border-radius: 30px;
-  background-color: var(--blue);
+  background-color: black;
   transition: all 0.2s ease;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background: var(--blue);
 }
 
 .react-toggle-track-check {

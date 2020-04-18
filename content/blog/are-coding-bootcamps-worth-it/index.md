@@ -1,5 +1,5 @@
 ---
-title: Are Coding Bootcamps Worth It? My Web Development Bootcamp Experience and In-Depth Review
+title: Are Coding Bootcamps Worth It? My Web Development Bootcamp Experience and In-Depth Review 📚
 date: "2019-05-11"
 description: "In-depth review about my web development bootcamp experience at Ironhack Miami."
 tags: ["Coding","Bootcamp", "Education", "Software Development", "Technology", "Web Development"]

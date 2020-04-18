@@ -18,7 +18,7 @@ function Header({ location, title, base }) {
     return (
       <h1
         style={{
-          ...scale(0.75),
+          ...scale(0.8),
           marginBottom: 0,
           marginTop: 0,
         }}

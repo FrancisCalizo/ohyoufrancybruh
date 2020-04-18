@@ -5,9 +5,9 @@ h1 {
   margin-top: 1.5rem;
 }
 
-article:hover {
+/* article:hover {
   opacity: 0.7;
-}
+} */
 
 blockquote {
   color: inherit;
@@ -16,6 +16,10 @@ blockquote {
 
 h4 {
   font-family: var(--systemFont);
+}
+
+h3 a:hover {
+  color: #87a9f8;
 }
 
 img {
