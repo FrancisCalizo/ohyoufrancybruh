@@ -5,6 +5,8 @@ description: "While not a class-based object-oriented language, JavaScript has w
 tags: ['Code', 'JavaScript', 'Software' , 'Web', Development', 'Object', 'Oriented', 'Programming']
 ---
 
+**Stay tuned, this blog post <u>isnt</u> finished!**
+
 Object-oriented programming (OOP) is the concept of using objects to represent data and methods, and objects are a collection of associated properties and values. The idea is to use objects to model real world things that we want to represent inside our programs.
 
 OOP in JavaScript is a bit different than OOP in other languages, like Java. Let's take a quick look on how OOP theory can be put into practice in JavaScript (This post assumes you understand the basic structure of an object literal).
@@ -36,5 +38,3 @@ A subclass is a class that inherits all properties of another class while being 
 #### The super() method
 
 The super() method is used to access and call functions on an object's parent. By calling the super() method, we call the parent's constuctor method and get access to the parent's properties and methods.
-
-###

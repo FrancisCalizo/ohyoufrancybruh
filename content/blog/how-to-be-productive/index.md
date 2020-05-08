@@ -5,6 +5,8 @@ description: "Last year, I noticed an considerable increase in my productivity a
 tags: ['Productivity']
 ---
 
+**Stay tuned, this blog post <u>isnt</u> finished!**
+
 Back in 2018, I vividly remember talking to a classmate of mine while waiting for our web development lecture to start. After a few minutes of conversing, he ended our exchange by calling me a "machine...a well-oiled machine".
 
 Our discusion had been about my daily schedule already that day: I had woken up at 0445 and had a two hour workout. After that, I drove to campus to start studying and get a head start on our lesson. I also had been studyng on campus until midnight the night before, which he was made aware of. It was 0900 and our lecture was about to start, and my classmate had just woken up only fifteen minutes prior and arrived just in time for class.
@@ -29,8 +31,6 @@ His description of a "machine" he was calling me was referring to my productivit
 ### 6. Follow a schedule
 
 ### 7. Have an "I can" mentality
-
-**Stay tuned, this blog post <u>isnt</u> finished!**
 
 
 
