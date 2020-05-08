@@ -5,7 +5,7 @@ description: "Last year, I noticed an considerable increase in my productivity a
 tags: ['Productivity']
 ---
 
-**Stay tuned, this blog post <u>isnt</u> finished!**
+**Stay tuned, this blog post <u>isn't</u> finished!**
 
 Back in 2018, I vividly remember talking to a classmate of mine while waiting for our web development lecture to start. After a few minutes of conversing, he ended our exchange by calling me a "machine...a well-oiled machine".
 
