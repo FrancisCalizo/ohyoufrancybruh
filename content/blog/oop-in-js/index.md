@@ -88,6 +88,7 @@ As you can see, we instantiate a new instance of the contructor by assigning the
 
 ![Get Summary Method](./get-summary-method.png)
 
+You'll notice that both of our functions contain the method `getSummary()`. This may seem okay, but what is happening is that we are actually generating a `new` function for each instance, and assigning that as a property. We are basically duplicating methods per each new instance. How would be able to make this better? By adding the method to the prototype, we can have all instances share that function for that property, i.e all instances will have access to those methods. Also by attaching the method to prototypes instead of the constructor, we forego the ability for the method to have access to any "private" variable. Let's take a look at prototypes.
 
 ## Prototypes
 
