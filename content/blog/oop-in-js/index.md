@@ -84,7 +84,10 @@ console.log(movie2.myRating) // 9.0
 console.log(movie1.getSummary()) // Star Wars III: Revenge of the Sith was release in 2005. I give it a  8.5/10.
 ```
 
-As you can see, we instantiate a new instance of the contructor by assigning the `new` keyword to the name of the constructor function, `Movie`, and pass in our arguments. Much better than righting out each object literal!
+As you can see, we instantiate a new instance of the contructor by assigning the `new` keyword to the name of the constructor function, `Movie`, and pass in our arguments. Much better than righting out each object literal! But let's take a closer look at the `getSummary()` method. When we output both of our objects into the console, here's what we see:
+
+![Get Summary Method](./get-summary-method.png)
+
 
 ## Prototypes
 
