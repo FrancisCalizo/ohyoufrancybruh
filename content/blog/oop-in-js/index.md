@@ -26,7 +26,7 @@ let movie1 = {
   myRating: 8.8,
 
   getSummary: function(){
-    return `${this.title} was release in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
+    return `${this.title} was released in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
   }
 }
 
@@ -36,7 +36,7 @@ let movie2 = {
   myRating: 9.0,
 
   getSummary: function(){
-    return `${this.title} was release in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
+    return `${this.title} was released in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
   }
 }
 ```
@@ -51,7 +51,7 @@ function Movie(title, releaseDate, myRating) {
   this.myRating = myRating;
 
   this.getSummary = function() {
-    return `${this.title} was release in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
+    return `${this.title} was released in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
   };
 }
 ```
@@ -70,7 +70,7 @@ function Movie(title, releaseDate, myRating) {
   this.myRating = myRating;
 
   this.getSummary = function() {
-    return `${this.title} was release in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
+    return `${this.title} was released in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
   };
 }
 
@@ -88,11 +88,15 @@ As you can see, we instantiate a new instance of the contructor by assigning the
 
 ![Get Summary Method](./get-summary-method.png)
 
-You'll notice that both of our functions contain the method `getSummary()`. This may seem okay, but what is happening is that we are actually generating a `new` function for each instance, and assigning that as a property. We are basically duplicating methods per each new instance. How would be able to make this better? By adding the method to the prototype, we can have all instances share that function for that property, i.e all instances will have access to those methods. Also by attaching the method to prototypes instead of the constructor, we forego the ability for the method to have access to any "private" variable. Let's take a look at prototypes.
+You'll notice that both of our functions contain the method `getSummary()`. This may seem okay, but what is happening is that we are actually generating a `new` function for each instance, and assigning that as a property. We are basically duplicating methods per each new instance. How would be able to make this better?
+
+By adding the method to the prototype, we can have all instances share that function for that property, i.e all instances will have access to those methods. Also by attaching the method to prototypes instead of the constructor, we forego the ability for the method to have access to any "private" variable. Let's take a look at prototypes.
 
 ## Prototypes
 
 Prototype are the mechanism by which JavaScript objects inherit features from one another. All objects in JavaScript have a prototype, all objects in JavaScript inherit methods from a prototype. Objects can have a prototype objectm which acts as a template object that it inherits methods and properties from. The JavaScript prototype property allows you to add new properties and methods to object constructors.
+
+By moving the our `getSummary()` method to our object prototype, all of our intances will share this function.
 
 ```javascript
 // Constructor Function
@@ -104,16 +108,78 @@ function Movie(title, releaseDate, myRating) {
 
 // Add Method to Movie Prototype
 Movie.prototype.getSummary = function () {
-  return `${this.title} was release in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
+  return `${this.title} was released in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
 };
 
 const movie1 = new Movie('Star Wars III: Revenge of the Sith', 2005, 8.5);
+
+console.log(movie1.releaseDate) // 2005
 console.log(movie1.getSummary()) // Star Wars III: Revenge of the Sith was release in 2005. I give it a  8.5/10.
 ```
+
+And when we output `movie1` into the console, we get:
+
+![Get Summary Method](./get-summary-method.png)
+
+Great! We have successfully assigned our `getSummary()` method to the prototype. Now whenever we instantiate a new object using our constructor, we will be able to share that method functionality across all instances without actually duplicating a new method on each instance.
+
+Now that we know how to use a contructor function to create similar instances, we can now create as many constructor functions as needed for other objects. But what if the other constructor functions that we want to create have simialr properties and methods to another constructor function?
+
+ Lets say we want to create multiple objects that hold data for a *TV Series*. This *TV Series* object would still have a title, a release date, and a rating. But now we would want to add how many seasons there are in each TV Series object. Our objects would be a similar structure to our `Movie` constructor, so what would be the best way to create this very simialr constructor? This is where inheritance comes into play.
+
 
 ## Inheritance
 
 Inheritance in OOP is an object's ability to access methods and other properties from another object. It is the concept of one thing (an object) gaining the behaviors (properties) of something else (another object). Inheritance in JavaScript differs quite a bit than inheritance in standard object-oriented programming languages. While other languages utilize *classical inheritance*, inheritance in JavaScript works through prototypes and this form of inheritance is called *prototypal inheritance*.
+
+So we would like to create a constructor function for `TvSeries` that shares the same properties as our `Movie` constructor (`title`, `releaseDate`, and `myRating`), as well as the `getSummary()` method. We also would like to add another property as well for `seasons`. Let's see how this code would look:
+
+```javascript
+// Constructor
+function Movie(title, releaseDate, myRating) {
+  this.title = title;
+  this.releaseDate = releaseDate;
+  this.myRating = myRating;
+}
+
+// Add Method to Movie Prototype
+Movie.prototype.getSummary = function () {
+  return `${this.title} was released in ${this.releaseDate}. I give it a  ${this.myRating}/10.`;
+};
+
+// Inheritance
+function TvSeries(title, releaseDate, myRating, seasons) {
+  Movie.call(this, title, releaseDate, myRating);
+
+  this.seasons = seasons;
+}
+
+// Inherit Prototype
+TvSeries.prototype = Object.create(Movie.prototype);
+
+// Assign prototype constructor from Movie to TvSeries
+TvSeries.prototype.constructor = TvSeries;
+
+// Instantiate a TvSeries Object
+const tvSeries1 = new TvSeries(
+  'The Office',
+  2005,
+  9.5,
+  9
+);
+
+
+console.log(tvSeries1.title); // The Office
+console.log(tvSeries1.seasons); // 9
+```
+
+When defining the `TvSeries` constructor function, you see that we start off the same way my creating the function parameters that we will need in each object. Now the next line is where the inheritance begins.
+
+The `Movie.call()` method allows for a function/method belonging to one object to be assigned and called for a different object and provides a new value of this to the function/method in this case with with `Movie` and `TvSeries`, respectively. We use this `call()` method to to assign `this`, `title`, `releaseDate`, and `myRating` from the `Movie` constructor to the new `TvSeries` constructor. We then assign the `seasons` argument value to `this.seasons` since this is a new property of the constructor.
+
+Now what about the `getSummary()` method we had on the prototype? We can assign this prototype to tne new constructor with `TvSeries.prototype = Object.create(Movie.prototype);` Now the prototype of `Movie` is inherited by `TvSeries` and we are able to call the `getSummary()` method.
+
+Now we'ere able to instantiate a new object, `tvSeries1` from our new inherited `TvSeries` constructor function!
 
 ## Classes
 
