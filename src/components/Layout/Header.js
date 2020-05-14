@@ -41,6 +41,8 @@ function Header({ location, title, base }) {
     <h3
       style={{
         fontFamily: 'Merriweather, Georgia, serif',
+        // fontFamily:
+        //   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
         marginTop: 0,
         marginBottom: 0,
         height: 42,

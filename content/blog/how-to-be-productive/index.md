@@ -20,6 +20,8 @@ Ah yes, the *To-do List*. AKA the other set of words that developers loathe that
 
 And there's a reason for that: **it holds you accountable**. The to-do list one of the few things I made sure to check daily (along with my bank account and statements!). My prefered app to use is <a href="https://todoist.com/app/" target="_blank">Todoist</a>. It's extremely simple and effective; none of that extra filler stuff that could distract you. It's just everything that you expect out of a to-do app.
 
+![Todoist](./todoist.png)
+
 In just the first week, I was able to feel **much** more accomplished just by marking things complete off my list. And that created a **snowball effect**. Once I finished one task, it made me want to keep knocking things off the list. And it didn't matter if it was something big like finally writing this blog post (*shrugs*), or making sure to call someone back.
 
 The second thing that made this to-do app so powerful was that it acted as place for a "brain dump". Think about it. How many times have you thought about something that you had to do, only to completely forget about it five minutes later and then realize a week later that you forgot to do it? You've probably lost count. It doesn't even have to refer to a task you have to do. Sometimes a great idea pops into your head (*maybe* that next million dollar idea!), but you just don't have the time to dwell on it because you're out to dinner with some friends. All you have to do is put it into your to-do app (I like to just dump it into the *inbox* section of Todoist and categorize it later on) and now you can worry about it at a more necessary time. Don't tell me that's too much work, because it's literally the same amount of effort and time as texting somebody.
@@ -31,6 +33,27 @@ With the amount of distractions these days (aka Technology), this first step is 
 ### 2. Set short AND long term goals; track them accordingly
 
 ### 3. Less music, more podcasts
+
+I still remember the day that I made this one of my New Year's Resolutions...you know, the ones you make and give up after 30 days? But for this one, that wasn't the case. This was actually one of the most enjoyable transitions I introduced into my life.
+
+Now don't get me wrong. I **LOVE** music. I listen to about 2-3 hours of music daily (I workout and run almost everyday and doing that to silence just isn't my cup of tea). But bringing in podcasts into my daily routine gave me a sense of accomplishment and satisfaction. I began listening to podcasts about finance, business, and eventually software deveopment.
+
+Instead of hearing the same songs over and over again everyday during my 30-minute commute, I was absorbing tons of useful information that I knew I would be able to apply in my daily life. It's understandable that you won't be able to retain all the information if you're driving or if you're working out because lets face it: multi-tasking and retention to not go hand-in-hand. But just being exposed to to the information and being able to listen to it over and over again, I was able to learn so many new things.
+
+Up until this day, I still listen to my software development podcast during my commutes and then a comedy podcast during my lunch break. And then from time to time, I'll switch it up with financial podcasts here and there. I can confidently say that I apply much of what I've learned in these podcasts (*especially* the software development and financial ones) to my everyday life.
+
+Here's a few podcasts that I love:
+
+<a href="https://syntax.fm/" target="_blank">SyntaxFM</a> - A deep dive into web development topics hosted by two full-stack web developers.
+</br>
+
+<a href="https://www.choosefi.com/" target="_blank">ChooseFI</a> - For those pursuing financial independence through investing, real estate & business creation.
+</br>
+
+<a href="http://www.spitballerspod.com/" target="_blank">Spitballers Pod</a> - A comedy podcast featuring three dads as they discuss ridiculous topics.
+</br>
+
+<a href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I Built This</a> - Stories behind the movements innovators, entrepreneurs, and idealists built.
 
 ### 4. Careful planning before execution
 

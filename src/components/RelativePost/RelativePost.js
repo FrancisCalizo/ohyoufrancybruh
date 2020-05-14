@@ -22,6 +22,8 @@ function RelativePost({ postNode }) {
           <h3
             style={{
               fontFamily: 'Merriweather, Georgia, serif',
+              // fontFamily:
+              //   '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
               fontSize: rhythm(1),
               margin: `${rhythm(1 / 2)} ${rhythm(1 / 4)} 0`,
             }}
