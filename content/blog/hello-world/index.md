@@ -9,6 +9,8 @@ Ah, the two words you **love** to *hate* as a Dev/Engineer. 🤷
 
 So *technically* this isn't my first blog post, contrary to the order of appearance and description of this particular post. My first post can be found [here](/are-coding-bootcamps-worth-it/), which I explain in great detail about my coding bootcamp experience.
 
+I also originally had this blog written with WordPress for a year, but later discovered the great wonder that is <a href="https://gatsbyjs.org/" target="_blank">Gatsby.js</a>. Shortly after, I hopped on the <a href="https://reactjs.org/" target="_blank">React</a> learning train and am now a happy Gatsby.js user. 👍
+
 Anyway, I'm glad you've found your way to my personal slice of the internet...er, one of them at least.
 
 My name is Francis and I'm a software developer from Fort Lauderdale, FL. ☀️
