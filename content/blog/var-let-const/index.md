@@ -7,6 +7,12 @@ tags: ['Code', 'JavaScript', 'Software' , 'Web', Development', 'Programming', 'T
 
 **Stay tuned, this blog post <u>isn't</u> finished!**
 
+### TLDR;
+![Todoist](./var-let-const.png)
+*Graphic provided by <a href="http://constletvar.com" target="_blank">constletvar.com</a>*
+
+## Intro
+
 `let` and `const` are two "newer" (I think ES6 is pretty much widely adopted at this point) types of variable declarations that have gained extreme popularity and usage in this day and age. But before then, `var` ruled as King 👑. Let's take a look at each of the three and explain their uses and differences in JavaScript.
 
 ## var
@@ -169,9 +175,7 @@ console.log(theChosenOne) // 'Darth Vader'
 
 // Declare with let
 let theFakeChosenOne = 'Rey Palpatine';
-let theFakeChosenOne = 'Rey Skywalker';
-
-console.log(theFakeChosenOne); // SyntaxError: Identifier 'theFakeChosenOne' has already been declared
+let theFakeChosenOne = 'Rey Skywalker'; // SyntaxError: Identifier 'theFakeChosenOne' has already been declared
 ```
 
 Again with `var`, we are able to redeclare a variable which could lead to some nasty bugs in the future. But with `let` we will get a `Syntax Error` if we try to redeclare a variable within <u>*the same block*</u>. *Note*: that’s not to say that a block-scoped variable can never be declared with a function-scoped variable. The block-scoped variable just needs to be declared within a distinctly different block:

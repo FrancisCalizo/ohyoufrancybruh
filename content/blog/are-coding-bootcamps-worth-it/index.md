@@ -206,7 +206,7 @@ This kind of environment made it very enjoyable just to be around and to learn c
 The co-working space and Ironhack also hosted a lot of free tech events (**with free beer too**) that you were able network and learn from. There were great areas to study and to relax in the building as well. And because of it’s location in Brickell, it was next to a lot of great restaurants, bars, and shopping areas.
 
 ![Rooftop View](./rooftop.jpg)
-> Roofttop view at Ironhack-Miami Campus
+> Rooftop view at Ironhack-Miami Campus
 
 ##### The Staff
 *You know the drill. This differs between what bootcamp you attend*. During my cohort, there was a bit of a problem with the head instructor that I won’t get too much into detail on. But long story short, the original instructor had moved to a different Ironhack location in Paris and was replaced by another instructor who was quite a bit inexperienced with JavaScript. It did make an impact on our learning, but overall wasn’t absolutely detrimental. He was honestly a super nice guy as well, but wasn’t the best teacher for the actual curriculum.
