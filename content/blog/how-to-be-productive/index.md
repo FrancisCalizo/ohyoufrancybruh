@@ -59,11 +59,25 @@ Here's a few podcasts that I love:
 
 ### 5. Less social media; limit brands & celebrities
 
+Two years ago for <a href="https://en.wikipedia.org/wiki/Lent" target="blank">lent</a>, I decided to give up all social media outlets for a 40-day period. I chose to give this up not only because I felt like it would actually be a challenge (I spend way too much time on my phone 🤷), but I felt that this would actually benefit me as well.
+
+And it did.
+
+So for this six-week period, I was without Instagram, Snapchat, Facebook, LinkedIn, and twitter (sometimes on Sundays I would check Instagram. When I was younger, I was told that Sundays were rest days and that you were able to skip whatever it was you were abstaining. Not sure how much truth there is to that though.) The results were as follows:
+
+#### - Less Time wasted
+
+The first week was pretty brutal. According to the screen-time app on my phone, I currently spend about 2.5 to 3 hours on my phone daily, and I tend to pick up my phone randomly just to check on things because I'm bored. And during those first few days, I realized how much I actually pick up my phone with absolutely no intention at all. I would grab it every ten minutes and realize that I couldn't click on any of the social media widgets and put it down. Ten minutes later, I would subconsciously just pick up my phone without even realizing it, just to arrive at the same result.
+
+I learned that if I didn't give up social media for lent, then those times that I picked up the phone would have probably resulted in me clicking endlessly through posts on all platforms, leading to about 20 mins+ of time wasted. During those 40 days, I drastically reduced my screen time and increased productivity just by eliminating the source of all my distractions.
+
+After the season of lent, I eased back into social media outlets and saw that I started to waste time again on these platforms. I would see one post and look at it, then see a related post and read it, and I would go down a rabbit-hole of endless posts that had nothing to do with the original post. It was just a period of aimless scrolling and, I made an effort to reduce my time on all these apps.
+
 ### 6. Follow a schedule
 
 ### 7. Have an "I can" mentality
 
-### *Bonus* Think big picture
+### *Bonus*:  Think big picture
 
 
 
