@@ -5,8 +5,6 @@ description: "A quick look into the three ways of variable declarations in JavaS
 tags: ['Code', 'JavaScript', 'Software' , 'Web', Development', 'Programming', 'Tutorial']
 ---
 
-**Stay tuned, this blog post <u>isn't</u> finished!**
-
 ### TLDR;
 ![Todoist](./var-let-const.png)
 *Graphic provided by <a href="http://constletvar.com" target="_blank">constletvar.com</a>*
@@ -193,3 +191,43 @@ function sayUncle(bool, name) {
 sayUncle(false, 'Uncle'); // returns 'Grandma'
 sayUncle(true, 'Uncle'); // returns 'Uncle'
 ```
+
+## const
+
+`const` is similar to `let`, but with one big difference: *variables declared with `const` maintain constant values*. This means that `const` variables cannot be reassigned:
+
+```javascript
+const name = 'Francis';
+
+name = 'Michael Scott'; // Uncaught TypeError: Assignment to constant variable
+```
+
+One key takeaway from this definition is that although you aren't able to reassign a value to `const`, this doesn't mean this variable is ***immutable***. Here's an example:
+
+```javascript
+const person = {
+  name: 'Mando'
+}
+
+person.name = 'Cara Dune' // This works
+
+person = {} // Uncaught TypeError: Assignment to constant variable.
+```
+
+Notice that changing a property on an object isn’t reassigning it, so even though an object is declared with `const`, that doesn’t mean you can’t mutate any of its properties. It only means you can’t reassign it to a new value.
+
+Like I said earlier, it is similar to `let` in terms of block-scope and hoisting.
+
+`const` also must be initialized during declaration:
+
+```javascript
+var name; // this works
+
+let age; // this works
+
+const weight; // Uncaught SyntaxError; Missing initializer in const declaration
+```
+
+## So... Which One Do I Use?
+
+The popular opinion is that you should always use `const` unless you know the variable is going to change. If it will need to change (like in a for loop), you should use let. `var` is typically never used anymore in modern JavaScript.
