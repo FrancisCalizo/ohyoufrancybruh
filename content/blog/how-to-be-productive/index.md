@@ -1,5 +1,5 @@
 ---
-title: "How to be productive: 7 ways I increased productivity and became more efficient 🧠"
+title: "How to be productive: 5 ways I increased productivity and became more efficient 🧠"
 date: "2020-05-05"
 description: "Last year, I noticed an considerable increase in my productivity after applying these few things in my daily life."
 tags: ['Productivity']
@@ -28,11 +28,19 @@ The second thing that made this to-do app so powerful was that it acted as place
 
 With the amount of distractions these days (aka Technology), this first step is vital. Create a to-do list via an app on your phone. Use it as a brain dump area. Check it daily. Get things done. Reap the rewards.
 
+### 2. Set both long-term AND short-term goals
 
+**"What gets measured gets managed."**
 
-### 2. Set short AND long term goals; track them accordingly
+Whatever it is you want to accomplish, write it down and set it as a goal that you want to achieve. Keep track of your results to see if you are getting closer to completing your goal. The more specific, the better. Let's take an easy example:
 
-### 3. Less music, more podcasts
+Let's say "I want to lose weight". Well, that's a pretty general statement. Let's get more specific. "I want to lose 15 lbs". That's better, but lets describe a timeframe so that you can accomplish that goal in a reasonable amount of time. "I want to lose 15 lbs in three months". This is a goal that you can now easily measure and manage.
+
+Although you do not want to set too many goals as to overwhelm yourself, I recommend setting a few short-term and long-term goals. Knocking out the short-term goals will give you a sense of satisfaction and reward while motivating you to get your long term goals accomplished as well.
+
+### 3. Follow a schedule/routine
+
+### 4. Less music, more podcasts
 
 I still remember the day that I made this one of my New Year's Resolutions...you know, the ones you make and give up after 30 days? But for this one, that wasn't the case. This was actually one of the most enjoyable transitions I introduced into my life.
 
@@ -55,8 +63,6 @@ Here's a few podcasts that I love:
 
 <a href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I Built This</a> - Stories behind the movements innovators, entrepreneurs, and idealists built.
 
-### 4. Careful planning before execution
-
 ### 5. Less social media; limit brands & celebrities
 
 Two years ago for <a href="https://en.wikipedia.org/wiki/Lent" target="blank">lent</a>, I decided to give up all social media outlets for a 40-day period. I chose to give this up not only because I felt like it would actually be a challenge (I spend way too much time on my phone 🤷), but I felt that this would actually benefit me as well.
@@ -73,11 +79,6 @@ I learned that if I didn't give up social media for lent, then those times that 
 
 After the season of lent, I eased back into social media outlets and saw that I started to waste time again on these platforms. I would see one post and look at it, then see a related post and read it, and I would go down a rabbit-hole of endless posts that had nothing to do with the original post. It was just a period of aimless scrolling and, I made an effort to reduce my time on all these apps.
 
-### 6. Follow a schedule
-
-### 7. Have an "I can" mentality
-
-### *Bonus*:  Think big picture
 
 
 
