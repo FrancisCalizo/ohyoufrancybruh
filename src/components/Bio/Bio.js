@@ -40,8 +40,9 @@ function Bio() {
                   <a href="https://franciscalizo.com" target="_blank" rel="noopener noreferrer">
                     {author}
                   </a>
-                  . A driven software developer situated in Fort Lauderdale, Florida. Passionate
-                  about fitness, travel, and hiking. Other interests include pizza.{' '}
+                  . A driven software developer situated in <del>Fort Lauderdale</del> Orlando,
+                  Florida. Passionate about fitness, travel, and hiking. Other interests include
+                  pizza.{' '}
                   <i>
                     <u>Hawaiian</u> pizza
                   </i>
